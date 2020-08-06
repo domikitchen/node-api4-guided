@@ -10,7 +10,7 @@ server.use(helmet());
 server.use('/api', apiRouter);
 
 server.get('/', (req, res) => {
-    res.status(200).json({ henlo: "it be here" });
+    res.status(200).json({ henlo: "testing automatic deployment" });
 });
 
 module.exports = server;
